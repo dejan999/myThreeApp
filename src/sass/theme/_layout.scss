@@ -8,8 +8,8 @@ html {
 }
 
 html, body {
-  min-height: 100%;
-  min-width: $resMin;
+  // min-height: 100%;
+  // min-width: $resMin;
 }
 
 body {
@@ -72,6 +72,12 @@ a {
   margin-left: $left-space;
   padding: 66px 0 34px 0;
   min-height: 500px;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("/assets/pictures/back.jpg");
+  // background: url('/assets/pictures/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0;
+  height: 980px
 }
 
 .al-footer {
@@ -204,7 +210,7 @@ a {
     text-align: center;
   }
   .al-main {
-    padding-bottom: 76px;
+    padding-bottom: 5px;
   }
   .al-footer-main {
     float: none;

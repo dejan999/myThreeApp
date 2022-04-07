@@ -1,0 +1,35 @@
+.title{
+    h1{
+        color: $danger;
+//   display: block;
+  font-size: 100px;
+  font-family: $font-family;
+//   white-space: nowrap;
+  padding: 10px;
+  text-align: center;
+//   outline: none !important;
+//   line-height: 60px;
+  background-color: #1C2B36;
+
+  span {
+    color: $sidebar-text;
+  }
+    }
+  
+  margin-top: 300px;
+}
+@media (max-width: 650px) {
+    .title{
+        h1{
+      font-size: 80px;
+      padding: 5px;
+      
+      span {
+        color: $sidebar-text;
+      }
+        }
+      
+      margin-top: 300px;
+    }
+    
+  }

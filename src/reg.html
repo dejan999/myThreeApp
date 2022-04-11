@@ -4,13 +4,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blur Admin</title>
+  <title>Examinations</title>
 
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,greek,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon-96x96.png">
+  <link rel="icon" type="image/jpg" sizes="100x100" href="assets/img/hospital.jpg">
 
   <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
   <!-- bower:css -->
@@ -27,8 +25,8 @@
 <body>
 <main class="auth-main">
   <div class="auth-block">
-    <h1>Sign up to Blur Admin</h1>
-    <a href="auth.html" class="auth-link">Already have a Blur Admin account? Sign in!</a>
+    <h1>Sign up to Medical clinic</h1>
+    <a href="auth.html" class="auth-link">Already have a Medical clinic account? Sign in!</a>
 
     <form class="form-horizontal">
       <div class="form-group">
@@ -36,6 +34,26 @@
 
         <div class="col-sm-10">
           <input type="text" class="form-control" id="inputName3" placeholder="Full Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputName3" class="col-sm-2 control-label">Specialist</label>
+
+        <div class="col-sm-10">
+          <div class="form-group">
+            <ui-select ng-model="selectpickerVm.selectedItem.selected"
+                       class="btn-group bootstrap-select form-control"
+                       ng-disabled="false"
+                       append-to-body="true"
+                       search-enabled="false">
+              <ui-select-match placeholder="Standard Select">
+                <span> asd</span>
+              </ui-select-match>
+              <ui-select-choices >
+                <span ng-bind-html="standardItem.label">dsad</span>
+              </ui-select-choices>
+            </ui-select>
+          </div>
         </div>
       </div>
       <div class="form-group">

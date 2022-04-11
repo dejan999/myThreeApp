@@ -1,0 +1,20 @@
+{
+    "doctors": [
+      {
+        "id": 1,
+        "name": "Petar Petrovic",
+        "specialist": "Kardiolog",
+        "email": "petar@gmail.com",
+        "password":"456asd"
+      }
+    ],
+    "examinations":[
+        {
+         "id":1,
+         "patientName":"Ana Jovanovic",
+         "title":"Redovna kontrola",
+         "date":"",
+         "postId":1
+        }
+    ]
+  }

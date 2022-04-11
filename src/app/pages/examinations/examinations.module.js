@@ -21,7 +21,11 @@
               icon: 'ion-android-home',
               order: 0,
             },
-          });
+          })
+          .state('log',{
+            url:'/log',
+            templateUrl:'app/pages/examinations/templeates/log.html',
+          })
     }
   
   })();
